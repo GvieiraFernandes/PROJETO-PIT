@@ -1,0 +1,790 @@
+
+@media screen and (min-width: 1930px) {
+    body {
+        background: linear-gradient(to right,white 50%, rgba(180, 224, 170, 0.9255) 50%);
+      }
+      
+      #logo {
+          margin-left: 3em;
+          font-family: 'Inter', sans-serif;
+          font-weight: 900;
+          margin-top: 1.5em;
+      }
+      
+      #cabecalho {
+          display: flex ;
+          list-style: none;
+          overflow: hidden;
+          gap: 5%;
+          margin-left: 15em;
+          margin-top: -3.5em;
+      }
+      
+      #cabecalho-2 {
+          display: flex ;
+          list-style: none;
+          overflow: hidden;
+          gap: 5%;
+          margin-left: 90em;
+          margin-top: -2.5em;
+      
+      }
+      
+      
+      li {
+          font-family: 'Inter', sans-serif;
+          font-weight: 500;
+          font-size: 1.2em;
+      }
+      
+      #div-1 {
+          display: flex;
+          margin-left: 110em;
+          overflow: hidden;
+          gap: 7%;
+          margin-top: -3.5em;
+      }
+      
+      #login {
+          font-family: 'Inter', sans-serif;
+          font-weight: 800;
+          font-size: 2.5em;
+          margin-left: 7em;
+          margin-top: 5em;
+      }
+      
+      #facebook {
+          width: 2em;
+          margin-left: 15%;
+      }
+      
+      #google {
+          width: 2em;
+          margin-left: 1em;
+      }
+      
+      #linkedin {
+          width: 2em;
+          margin-left: 1em;
+          
+      }
+      
+      #email {
+          margin-left: 17em;
+          margin-top: 2em;
+          border-radius: 10em;
+          width: 30em;
+          height: 2em;
+      }
+      
+      
+      #senha {
+          margin-top: 1em;
+          border-radius: 10em;
+          width: 30em;
+          height: 2em;
+          display: flex;
+          margin-left: 17em;
+      }
+      
+      #esqueceu-senha {
+          font-family: 'PT Sans Caption', sans-serif;
+          font-weight: 700;
+          color: rgba(130, 130, 130, 1);
+          font-size: 1.2em;
+          margin-left: 23em;
+          margin-top: -0.1em;
+      }
+      
+      #botao-entrar {
+          font-family: 'PT Sans Caption', sans-serif;
+          font-weight: 700;
+          border-radius: 10em;
+          background: #000;
+          color: white;
+          width: 20em;
+          height: 2.5em;
+          margin-left: 22em;
+      }
+      
+      
+      #sem-login {
+      font-family: 'Inter', sans-serif;
+      font-weight: 800;
+      font-size: 2.5em;
+      margin-left: 23em;
+      margin-top: -3.2em;
+      }
+      
+      #txt-1 {
+          font-family: 'Inter', sans-serif;
+          font-weight: 400;
+          font-size: 2.5em;
+          text-align: center;
+          margin-left: 20em;
+      
+      }
+      
+      
+      #botao-cadastrar {
+          font-family: 'PT Sans Caption', sans-serif;
+          font-weight: 700;
+          border-radius: 10em;
+          background: #000;
+          color: white;
+          width: 20em;
+          height: 2.5em;
+          margin-left: 75em;
+          margin-top: 4em;
+      }
+      
+      #div-2 {
+          display: flex;
+          
+      } 
+      
+}
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 2068px){
+    
+body {
+    background: linear-gradient(to right,white 50%, rgba(180, 224, 170, 0.9255) 50%);
+  }
+  
+  #logo {
+      margin-left: 3em;
+      font-family: 'Inter', sans-serif;
+      font-weight: 900;
+      margin-top: 1.5em;
+  }
+  
+  #cabecalho {
+      display: flex ;
+      list-style: none;
+      overflow: hidden;
+      gap: 5%;
+      margin-left: 15em;
+      margin-top: -3.5em;
+  }
+  
+  #cabecalho-2 {
+      display: flex ;
+      list-style: none;
+      overflow: hidden;
+      gap: 5%;
+      margin-left: 70em;
+      margin-top: -2.5em;
+  
+  }
+  
+  
+  li {
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 1.2em;
+  }
+  
+  #div-1 {
+      display: flex;
+      overflow: hidden;
+      gap: 7%;
+      margin-top: -3.5em;
+      margin-left: 90em;
+  }
+  
+  #login {
+      font-family: 'Inter', sans-serif;
+      font-weight: 800;
+      font-size: 2.5em;
+      margin-left: 7em;
+      margin-top: 5em;
+  }
+  
+  #facebook {
+      width: 2em;
+      margin-left: 15%;
+  }
+  
+  #google {
+      width: 2em;
+      margin-left: 1em;
+  }
+  
+  #linkedin {
+      width: 2em;
+      margin-left: 1em;
+      
+  }
+  
+  #email {
+      margin-left: 17em;
+      margin-top: 2em;
+      border-radius: 10em;
+      width: 30em;
+      height: 2em;
+  }
+  
+  
+  #senha {
+      margin-top: 1em;
+      border-radius: 10em;
+      width: 30em;
+      height: 2em;
+      display: flex;
+      margin-left: 17em;
+  }
+  
+  #esqueceu-senha {
+      font-family: 'PT Sans Caption', sans-serif;
+      font-weight: 700;
+      color: rgba(130, 130, 130, 1);
+      font-size: 1.2em;
+      margin-left: 23em;
+      margin-top: -0.1em;
+  }
+
+  #div-2 {
+    display: flex;
+  }
+  
+  #botao-entrar {
+      font-family: 'PT Sans Caption', sans-serif;
+      font-weight: 700;
+      border-radius: 10em;
+      background: #000;
+      color: white;
+      width: 20em;
+      height: 2.5em;
+      margin-left: 22em;
+  }
+  
+  
+  #sem-login {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 2.5em;
+  margin-left: 15em;
+  margin-top: -3.2em;
+  }
+  
+  #txt-1 {
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      font-size: 2.5em;
+      text-align: center;
+      margin-left: 12em;
+  
+  }
+  
+  
+  #botao-cadastrar {
+      font-family: 'PT Sans Caption', sans-serif;
+      font-weight: 700;
+      border-radius: 10em;
+      background: #000;
+      color: white;
+      width: 20em;
+      height: 2.5em;
+      margin-left: 50em;
+      margin-top: 4em;
+  }
+  
+}
+
+
+
+
+
+
+
+/*-------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1748px){
+
+
+    body {
+        background: linear-gradient(to right,white 50%, rgba(180, 224, 170, 0.9255) 50%);
+      }
+      
+      #logo {
+          margin-left: 3em;
+          font-family: 'Inter', sans-serif;
+          font-weight: 900;
+          margin-top: 1.5em;
+      }
+      
+      #cabecalho {
+          display: flex ;
+          list-style: none;
+          overflow: hidden;
+          gap: 5%;
+          margin-left: 15em;
+          margin-top: -3.5em;
+      }
+      
+      #cabecalho-2 {
+          display: flex ;
+          list-style: none;
+          overflow: hidden;
+          gap: 5%;
+          margin-left: 60em;
+          margin-top: -2.5em;
+      
+      }
+      
+      
+      li {
+          font-family: 'Inter', sans-serif;
+          font-weight: 500;
+          font-size: 1.2em;
+      }
+      
+      #div-1 {
+          display: flex;
+          overflow: hidden;
+          gap: 7%;
+          margin-top: -3.5em;
+          margin-left: 80em;
+      }
+      
+      #login {
+          font-family: 'Inter', sans-serif;
+          font-weight: 800;
+          font-size: 2.5em;
+          margin-left: 7em;
+          margin-top: 5em;
+      }
+      
+      #facebook {
+          width: 2em;
+          margin-left: 23em;
+      }
+      
+      #google {
+          width: 2em;
+          margin-left: 1em;
+      }
+      
+      #linkedin {
+          width: 2em;
+          margin-left: 1em;
+          
+      }
+      
+      #email {
+          margin-left: 17em;
+          margin-top: 2em;
+          border-radius: 10em;
+          width: 30em;
+          height: 2em;
+      }
+      
+      
+      #senha {
+          margin-top: 1em;
+          border-radius: 10em;
+          width: 30em;
+          height: 2em;
+          display: flex;
+          margin-left: 17em;
+      }
+      
+      #esqueceu-senha {
+          font-family: 'PT Sans Caption', sans-serif;
+          font-weight: 700;
+          color: rgba(130, 130, 130, 1);
+          font-size: 1.2em;
+          margin-left: 23em;
+          margin-top: -0.1em;
+      }
+    
+      #div-2 {
+        display: flex;
+      }
+      
+      #botao-entrar {
+          font-family: 'PT Sans Caption', sans-serif;
+          font-weight: 700;
+          border-radius: 10em;
+          background: #000;
+          color: white;
+          width: 20em;
+          height: 2.5em;
+          margin-left: 22em;
+      }
+      
+      
+      #sem-login {
+      font-family: 'Inter', sans-serif;
+      font-weight: 800;
+      font-size: 2.5em;
+      margin-left: 10em;
+      margin-top: -3.2em;
+      }
+      
+      #txt-1 {
+          font-family: 'Inter', sans-serif;
+          font-weight: 400;
+          font-size: 2.5em;
+          text-align: center;
+          margin-left: 7em;
+      
+      }
+      
+      
+      #botao-cadastrar {
+          font-family: 'PT Sans Caption', sans-serif;
+          font-weight: 700;
+          border-radius: 10em;
+          background: #000;
+          color: white;
+          width: 20em;
+          height: 2.5em;
+          margin-left: 35em;
+          margin-top: 4em;
+      }
+      
+    }
+    
+
+
+
+    @media screen and (max-width: 1554px){ 
+        body {
+            background: linear-gradient(to right,white 50%, rgba(180, 224, 170, 0.9255) 50%);
+          }
+          
+          #logo {
+              margin-left: 3em;
+              font-family: 'Inter', sans-serif;
+              font-weight: 900;
+              margin-top: 1.5em;
+          }
+          
+          #cabecalho {
+              display: flex ;
+              list-style: none;
+              overflow: hidden;
+              gap: 5%;
+              margin-left: 15em;
+              margin-top: -3.5em;
+          }
+          
+          #cabecalho-2 {
+              display: flex ;
+              list-style: none;
+              overflow: hidden;
+              gap: 5%;
+              margin-left: 50em;
+              margin-top: -2.5em;
+          
+          }
+          
+          
+          li {
+              font-family: 'Inter', sans-serif;
+              font-weight: 500;
+              font-size: 1.2em;
+          }
+          
+          #div-1 {
+              display: flex;
+              overflow: hidden;
+              gap: 7%;
+              margin-top: -3.5em;
+              margin-left: 70em;
+          }
+          
+          #login {
+              font-family: 'Inter', sans-serif;
+              font-weight: 800;
+              font-size: 2em;
+              margin-left: 6.5em;
+              margin-top: 5em;
+          }
+          
+          #facebook {
+              width: 2.5Sem;
+              margin-left: 16em;
+          }
+          
+          #google {
+              width: 2em;
+              margin-left: 1em;
+          }
+          
+          #linkedin {
+              width: 2em;
+              margin-left: 1em;
+              
+          }
+          
+          #email {
+              margin-left: 10em;
+              margin-top: 2em;
+              border-radius: 10em;
+              width: 30em;
+              height: 2em;
+          }
+          
+          
+          #senha {
+              margin-top: 1em;
+              border-radius: 10em;
+              width: 30em;
+              height: 2em;
+              display: flex;
+              margin-left: 10em;
+          }
+          
+          #esqueceu-senha {
+              font-family: 'PT Sans Caption', sans-serif;
+              font-weight: 700;
+              color: rgba(130, 130, 130, 1);
+              font-size: 1em;
+              margin-left: 23em;
+              margin-top: -0.1em;
+          }
+        
+          #div-2 {
+            display: flex;
+          }
+          
+          #botao-entrar {
+              font-family: 'PT Sans Caption', sans-serif;
+              font-weight: 700;
+              border-radius: 10em;
+              background: #000;
+              color: white;
+              width: 20em;
+              height: 2.5em;
+              margin-left: 16em;
+          }
+          
+          
+          #sem-login {
+          font-family: 'Inter', sans-serif;
+          font-weight: 800;
+          font-size: 2em;
+          margin-left: 12em;
+          margin-top: -3.2em;
+          }
+          
+          #txt-1 {
+              font-family: 'Inter', sans-serif;
+              font-weight: 400;
+              font-size: 2em;
+              text-align: center;
+              margin-left: 9em;
+          
+          }
+          
+          
+          #botao-cadastrar {
+              font-family: 'PT Sans Caption', sans-serif;
+              font-weight: 700;
+              border-radius: 10em;
+              background: #000;
+              color: white;
+              width: 20em;
+              height: 2em;
+              margin-left: 30em;
+              margin-top: 4em;
+          }
+          
+        }
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        @media screen and (max-width: 1330px){ 
+            body {
+                background: linear-gradient(to right,white 50%, rgba(180, 224, 170, 0.9255) 50%);
+              }
+              
+              #logo {
+                  margin-left: 2em;
+                  font-family: 'Inter', sans-serif;
+                  font-weight: 900;
+                  margin-top: 1.5em;
+              }
+              
+              #cabecalho {
+                  display: flex ;
+                  list-style: none;
+                  overflow: hidden;
+                  gap: 5%;
+                  margin-left: 12em;
+                  margin-top: -3.5em;
+              }
+              
+              #cabecalho-2 {
+                  display: flex ;
+                  list-style: none;
+                  overflow: hidden;
+                  gap: 5%;
+                  margin-left: 40em;
+                  margin-top: -2.5em;
+              
+              }
+              
+      
+              li {
+                  font-family: 'Inter', sans-serif;
+                  font-weight: 500;
+                  font-size: 1.2em;
+              }
+              
+              #div-1 {
+                  display: flex;
+                  overflow: hidden;
+                  gap: 7%;
+                  margin-top: -3.5em;
+                  margin-left: 60em;
+                  width: 0.5em;
+              }
+              
+              #login {
+                  font-family: 'Inter', sans-serif;
+                  font-weight: 800;
+                  font-size: 1.5em;
+                  margin-left: 8.5em;
+                  margin-top: 5em;
+              }
+              
+              #facebook {
+                  width: 1.5em;
+                  margin-left: 15em;
+              }
+              
+              #google {
+                  width: 1.5em;
+                  margin-left: 1em;
+              }
+              
+              #linkedin {
+                  width: 1.5em;
+                  margin-left: 1em;
+                  
+              }
+              
+              #email {
+                  margin-left: 10em;
+                  margin-top: 2em;
+                  border-radius: 10em;
+                  width: 25em;
+                  height: 2em;
+              }
+              
+              
+              #senha {
+                  margin-top: 1em;
+                  border-radius: 10em;
+                  width: 25em;
+                  height: 2em;
+                  display: flex;
+                  margin-left: 10em;
+              }
+              
+              #esqueceu-senha {
+                  font-family: 'PT Sans Caption', sans-serif;
+                  font-weight: 700;
+                  color: rgba(130, 130, 130, 1);
+                  font-size: 0.8em;
+                  margin-left: 26em;
+                  margin-top: -0.1em;
+              }
+            
+              #div-2 {
+                display: flex;
+              }
+              
+              #botao-entrar {
+                  font-family: 'PT Sans Caption', sans-serif;
+                  font-weight: 700;
+                  border-radius: 10em;
+                  background: #000;
+                  color: white;
+                  width: 15em;
+                  height: 2.5em;
+                  margin-left: 15em;
+              }
+              
+              
+              #sem-login {
+              font-family: 'Inter', sans-serif;
+              font-weight: 800;
+              font-size: 1.5em;
+              margin-left: 12em;
+              margin-top: -3.2em;
+              }
+              
+              #txt-1 {
+                  font-family: 'Inter', sans-serif;
+                  font-weight: 400;
+                  font-size: 1.5em;
+                  text-align: center;
+                  margin-left: 9em;
+              
+              }
+              
+              
+              #botao-cadastrar {
+                  font-family: 'PT Sans Caption', sans-serif;
+                  font-weight: 700;
+                  border-radius: 10em;
+                  background: #000;
+                  color: white;
+                  width: 15em;
+                  height: 2em;
+                  margin-left: 25em;
+                  margin-top: 4em;
+              }
+              
+            }
+            
+        
+
+           

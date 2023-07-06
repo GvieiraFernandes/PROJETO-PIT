@@ -1,0 +1,162 @@
+body {
+    background: linear-gradient(to right, rgba(180, 224, 170, 0.9255) 50%, white 50%);
+}
+
+#logo {
+    margin-left: 3em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    margin-top: 1.5em;
+}
+
+#cabecalho {
+    display: flex;
+    list-style: none;
+    overflow: hidden;
+    gap: 5%;
+    margin-left: 15em;
+    margin-top: -3.5em;
+}
+
+#cabecalho-2 {
+    display: flex;
+    list-style: none;
+    overflow: hidden;
+    gap: 5%;
+    margin-left: 90em;
+    margin-top: -2.5em;
+
+}
+
+
+li {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+#div-1 {
+    display: flex;
+    overflow: hidden;
+    gap: 7%;
+    margin-top: -3.5em;
+    margin-left: 110em;
+}
+
+
+
+
+#conta {
+    font-size: 2em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    margin-left: 13.5em;
+    margin-top: 5em;
+}
+
+
+#txt-1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    margin-right: 40em;
+    text-align: center;
+}
+
+
+
+#botao-cadastrar {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 700;
+    border-radius: 10em;
+    background: #000;
+    color: white;
+    width: 20em;
+    height: 2.5em;
+    margin-left: 35em;
+    margin-top: 4em;
+}
+
+
+
+#div-3 {
+    display: flex;
+}
+
+
+#cadastre {
+    font-size: 2em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    margin-left: 55em;
+    margin-top: -8.5em;
+    text-align: center;
+}
+
+
+#logo {
+    display: flex;
+}
+
+#facebook {
+    width: 2em;
+    margin-left: 113em;
+    margin-top: -20em;
+}
+
+#google {
+    width: 2em;
+    margin-top: -20em;
+}
+
+#linkedin {
+    width: 2em;
+    margin-top: -20em;
+    
+}
+
+
+#nome {
+    margin-left: 128em;
+    margin-top: -7em;
+    border-radius: 10em;
+    width: 30em;
+    height: 2em;
+    display: flex;
+}
+
+#cpf {
+    margin-top: 1em;
+    border-radius: 10em;
+    width: 30em;
+    height: 2em;
+    display: flex;
+    margin-left: 128em;
+}
+
+#email {
+    margin-left: 128em;
+    margin-top: 1em;
+    border-radius: 10em;
+    width: 30em;
+    height: 2em;
+    display: flex;
+}
+
+#senha {
+    margin-left: 128em;
+    margin-top: 1em;
+    border-radius: 10em;
+    width: 30em;
+    height: 2em;
+    display: flex;
+}
+
+#confirma {
+    margin-left: 128em;
+    margin-top: 1em;
+    border-radius: 10em;
+    width: 30em;
+    height: 2em;
+    display: flex;
+}
